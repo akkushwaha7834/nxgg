@@ -1,0 +1,290 @@
+@media(max-width:1199.98px) and (min-width:992px){
+    .road-map-main .road-map-wrapper .road-map-card::before {
+          left: -18%;
+}
+.road-map-main .road-map-wrapper:nth-of-type(even) .road-map-card::before {
+    right: -18%;
+    left: unset;
+}
+}
+@media(min-width:992px) {
+    .mobile-menu-toggle {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+    .w-md-60 {
+        width: 60% !important;
+    }
+}
+
+@media(min-width:360px) {
+    .logo-sec-f .col-sm-6 {
+        width: 49%;
+    }
+
+}
+@media(min-width:480px){
+    .trade-list-ul li {
+        width: 31%;
+    }
+    
+}
+@media(max-width:1399.98px) {
+
+    .forex_table .uael-table-row td,
+    .forex_table .uael-table-row th {
+        padding: 20px 10px 20px 10px;
+    }
+}
+
+@media(max-width:1199.98px) {
+    .request-quote {
+        display: none;
+    }
+
+    .forex_table .uael-table-row td,
+    .forex_table .uael-table-row th {
+        padding: 20px 10px 20px 10px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:991.98px) {
+    .why-nxg-markets-purple .road-map-main .road-map-wrapper:nth-of-type(even) .road-map-circle, .why-nxg-markets-purple .road-map-main .road-map-wrapper .road-map-circle {
+        border-color: #fff;
+    }
+    .forex_table {
+        width: 970px !important;
+    }
+
+    .table-respon {
+        width: 700px;
+        overflow-x: scroll;
+
+    }
+
+    .dep-with-table {
+        width: 970px !important;
+    }
+
+    .table-respon {
+        width: 700px;
+        overflow-x: scroll;
+
+    }
+
+    .price-table {
+        overflow-x: scroll;
+    }
+
+    .price-table>li {
+        width: auto;
+    }
+
+    .inner-banner {
+        padding: 100px 0;
+    }
+
+    .banner_factoids li {
+        width: 33%;
+        float: left;
+        list-style: none;
+        padding: 0px 12px;
+        margin-bottom: 1.5rem;
+    }
+
+    .first-image {
+        width: 100%;
+    }
+
+    .last-image {
+        width: 36%;
+    }
+
+    .new-to-forex-trading {
+        padding: 30px;
+    }
+
+    .trade-markets-right {
+        margin-left: 0px;
+    }
+
+    .top-traded-markets {
+        padding: 50px 0 245px;
+    }
+
+    .navbar-brand img {
+        max-width: 135px;
+    }
+
+    .footer-logo {
+        max-width: 135px;
+    }
+    .careers-table{
+        width: 940px;
+    }
+}
+
+@media(max-width:767.98px) {
+    .copyrights2{
+justify-content: start!important;
+    }
+    .trade-list li {
+        width: 30%;
+    }
+
+    .safety-of-funds-content {
+        padding: 30px 15px 0;
+    }
+
+    .inner-banner {
+        padding: 50px 0;
+    }
+
+    .banner_factoids li {
+        width: 50%;
+    }
+
+    .tabs-v {
+        flex-direction: column !important;
+    }
+
+    h2 {
+        font-size: 29px !important;
+    }
+
+    .new-to-forex-trading {
+        padding: 15px;
+    }
+
+    .top-traded-markets button {
+        text-align: left;
+        font-size: 20px;
+        border-radius: 13px 13px 13px 13px !important;
+        background: var(--purple) !important;
+        border-right: none;
+        padding: 15px 15px 15px 15px;
+        color: #fff !important;
+        margin-bottom: 1rem;        
+        border-right: none !important;
+    }
+    .top-traded-markets button:hover{
+        color: #fff !important;
+    }
+    .top-traded-markets button.active {
+        font-size: 20px;
+        border-radius: 13px 13px 13px 13px !important;
+        background: var(--purple) !important;
+        border-right: none;
+        padding: 15px 15px 15px 15px;
+        font-weight: 700;
+        border-right: none !important;
+    }
+
+    .tabs-v .nav-pills {
+        width: 100%;
+    }
+
+    .trade-markets-right {
+        margin-left: 12px;
+    }
+
+    .copytrading-experts .copytrade-left {
+        padding: 30px 15px;
+    }
+
+    .start-trading-today-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .start-trading-today-content #angle_fa {
+        transform: rotate(90deg);
+    }
+
+    .last-image {
+        width: 18%;
+    }
+    .road-map-main .road-map-wrapper .road-map-circle .road-map-circle-text {
+        width: 80px;
+        height: 80px;
+    }
+    .road-map-main .road-map-wrapper .road-map-circle {
+        border: 15px solid var(--purple);
+    }
+    .road-map-main .road-map-wrapper .road-map-circle {
+        width: 130px;
+        height: 130px;
+    }
+    .funding-option {
+        padding: 80px 0 0;
+    }
+    .trading-platform-intro {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media(max-width:575.98px) {
+.footer-section .col-sm-6{
+    width: 50%;
+}
+    .banner_factoids li {
+        width: 100%;
+    }
+
+    .social-media-icon {
+        float: left;
+    }
+    .join-image-box.one::after {
+        display: none !important;
+    }
+    .contact_us_form li {
+       
+        width: 100%;
+    }
+    .inner-banner{
+        background-position: 64%;
+    }
+    .pb-xsm-0{
+        padding-bottom: 0px !important;
+    }
+    .trading-platform .col-sm-6{
+        width: 48%;
+    }
+}
+
+@media(max-width:424.98px) {
+    .multiple-buttons {
+        flex-direction: column;
+    }
+
+    .divi {
+        display: none;
+    }
+}
+
+@media (max-width:384.98px) {
+    .tabs-scroll {
+        justify-content: start !important;
+        height: 43px;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .tabs-scroll li {
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width:479.98px) {
+    .trade-list li {
+        width: 47%;
+    }
+    .trade-list-ul li {
+        width: 47%;
+        list-style: none;
+    }
+}

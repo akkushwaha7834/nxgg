@@ -1,0 +1,1 @@
+<a href="https://my.nxgmarkets.com/auth/register" class="theme-bttn"><i class="fa fa-user" aria-hidden="true"></i>Register Now</a>
