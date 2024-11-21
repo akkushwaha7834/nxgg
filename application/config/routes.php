@@ -112,6 +112,7 @@ $route['']="welcome/";
 $route['']="welcome/";
 $route['festival-fair-ib-contest']="welcome/festival_fair_ib_contest";
 $route['christmas-ib-contest'] = "welcome/christmas_ib_contest";
+$route['black-friday'] = "welcome/black_friday";
 
 // $route['admin/report/uploadreport/(:any)']="admin/report/uploadreport/$1";
 

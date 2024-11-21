@@ -869,5 +869,22 @@ class Welcome extends CI_Controller {
             <?php
 	    }
 	}
+	public function black_friday()
+	{
+	    // if ($this->input->post()){
+		// 	$data=array(
+		// 		"full_name"=>$this->input->post('full_name'),
+		// 		"email"=>$this->input->post('email'),
+		// 		"contact_no"=>$this->input->post('contact_no'),
+		// 		"location"=>$this->input->post('location')
+		// 	);
+		// 	$this->db->insert('new_year_contest',$data);
+		// }
+		$page_data['page']='black-friday';
+		$this->load->view('frontend/section/header',$page_data);
+		$this->load->view('frontend/index', $page_data);
+		$this->load->view('frontend/section/footer',$page_data);
+	}
 
 }
+
